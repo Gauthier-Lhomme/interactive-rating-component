@@ -26,20 +26,29 @@ display: flex ;
 list-style: none ;
 padding: 0;
 `
-export const Li = styled.li`
+export const Li = styled.button`
 padding: 1vh 2vh ;
-background-color: hsl(217, 12%, 63%) ;
-border-radius: 100%;
+width: 3rem ;
+height: 3rem ;
+background-color: #727983 ;
+color : #302e2e ;
+border-radius: 50%;
+outline: none ;
+border:none ;
 margin-right: 2vh ;
 margin-left: 0.5vh ;
+&:focus{
+    background-color : white ;
+};
 &:hover{
     cursor: pointer;
     background-color: #cc8a0f ;
 };
+
 `
 
 export const DivButton = styled.div`
-background-color: #cc8a0f ;
+background-color:  #cc8a0f ;
 text-align: center ;
 margin-right: 2vh ;
 font-size: 2vh ;
@@ -49,7 +58,7 @@ font-weight: bold ;
 &:hover{
     background-color : white ;
     color: #cc8a0f ;
-    cursor: pointer;  
+    cursor: pointer;
 }
-`
 
+`
