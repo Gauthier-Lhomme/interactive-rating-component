@@ -1,8 +1,27 @@
 import React from "react";
 import iconStar from "../images/icon-star.svg";
-import { DivButton, Li, MainDiv, RatingSection, StarImg, Ul } from "../styled-components/RatingComponent";
+import {
+  DivButton,
+  Li,
+  MainDiv,
+  RatingSection,
+  StarImg,
+  Ul,
+} from "../styled-components/RatingComponent";
 
 export default class RatingComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value : null}
+    this.ChoosingValue = this.ChoosingValue.bind(this);
+  }
+
+
+  ChoosingValue(e) {
+    this.setState({value : e.target.value})
+  }
+ 
+
   render() {
     return (
       <MainDiv>
@@ -14,12 +33,23 @@ export default class RatingComponent extends React.Component {
             feedback is appreciated to help us improve our offering !
           </p>
           <Ul>
-            <Li>1</Li>
-            <Li>2</Li>
-            <Li>3</Li>
-            <Li>4</Li>
-            <Li>5</Li>
+            <Li value={1} onClick={this.ChoosingValue}>
+              1
+            </Li>
+            <Li value={2} onClick={this.ChoosingValue}>
+              2
+            </Li>
+            <Li value={3} onClick={this.ChoosingValue}>
+              3
+            </Li>
+            <Li value={4} onClick={this.ChoosingValue}>
+              4
+            </Li>
+            <Li value={5} onClick={this.ChoosingValue}>
+              5
+            </Li>
           </Ul>
+          <p>You click on {this.state.value}</p>
           <DivButton>Submit</DivButton>
         </RatingSection>
       </MainDiv>
