@@ -21,12 +21,12 @@ padding: 1vh ;
 border-radius: 100%;
 `
 
-export const Ul = styled.ul`
+export const ButtonsContainer = styled.div`
 display: flex ;
 list-style: none ;
 padding: 0;
 `
-export const Li = styled.button`
+export const ButtonNumber = styled.button`
 padding: 1vh 2vh ;
 width: 3rem ;
 height: 3rem ;
@@ -47,7 +47,7 @@ margin-left: 0.5vh ;
 
 `
 
-export const DivButton = styled.div`
+export const Button = styled.button`
 background-color:  #cc8a0f ;
 text-align: center ;
 margin-right: 2vh ;
