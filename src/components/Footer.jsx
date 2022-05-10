@@ -7,10 +7,10 @@ function Footer() {
   return (
     <Div class="attribution">
       Challenge by{" "}
-      <A href="https://github.com/Gauthier-Lhomme" target="_blank">
+      <A href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">
         Frontend Mentor
       </A>
-      . Coded by <a href="#">Gauthier Lhomme</a>.
+      . Coded by <a href="https://github.com/Gauthier-Lhomme">Gauthier Lhomme</a>.
     </Div>
   );
 }
