@@ -1,5 +1,8 @@
 # Frontend Mentor - Interactive rating component
 
+[Interactive rating component](https://remarkable-snickerdoodle-717a2e.netlify.app/)
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
