@@ -5,7 +5,7 @@ export const MainDiv = styled.div`
   background-color: hsl(216, 12%, 8%);
   color: white;
   padding-top: 26vh ;
-  min-height: 90vh;  
+  min-height: 100vh;  
   @media ${Device.mobile} {
     margin: 0;
     padding: 0;
