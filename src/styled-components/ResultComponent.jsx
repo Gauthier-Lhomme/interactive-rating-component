@@ -1,28 +1,32 @@
 import styled from "styled-components";
 import { Device } from "../asset/device";
 
-export const ConfirmImg = styled.img`
-margin-left:4.7vw;
-margin-top: 2vh;
-margin-bottom: 2vh;
-@media ${Device.mobile}{
-margin-left: 8vw ;
-  }
-`
 
 export const MainDiv = styled.div`
   background-color: hsl(216, 12%, 8%);
-  margin-left: 25vw;
-  padding: 30vh;
-  padding-top: 2vh ;
   color: white;
+  padding-top: 26vh ;
+  padding-bottom: 34vh ;
   @media ${Device.mobile}{
 margin: 0;
 padding:0 ;
-padding: 25.8vh 0vh;
+padding: 25.9vh 0vh;
 
   }
 `;
+
+
+
+export const ConfirmImg = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+@media ${Device.mobile}{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  }
+`
+
 
 export const SuccessP = styled.p`
   color: white;
@@ -33,9 +37,9 @@ export const SuccessP = styled.p`
 `;
 
 export const ResultSection = styled.section`
-  background-color: #1b2129;
+  margin: 0 auto;
+  background-color: #1e252e;
   padding: 3vh;
-  height: 100%;
   width: 40vh;
   border-radius: 25px;
   @media ${Device.mobile}{
@@ -47,13 +51,14 @@ export const NoteP = styled.p`
   color: #cc8a0f;
   background-color: #1214174b;
   margin: 0 auto;
+  margin-top: 2vh ;
   text-align: center ;
   border-radius: 25px;
   font-weight: bold;
   padding-top: 0.5vh ;
   padding-bottom:0.5vh ;
   @media ${Device.mobile}{
-    width: 25vw;
+    width: 58vw;
 
 
   }

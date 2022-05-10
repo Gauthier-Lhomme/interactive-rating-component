@@ -3,15 +3,13 @@ import { Device } from "../asset/device";
 
 export const MainDiv = styled.div`
   background-color: hsl(216, 12%, 8%);
-  margin-left: 25vw;
-  padding: 30vh;
-  padding-top: 29.3vh ;
-  color: white;  
-  @media ${Device.mobile}{
-margin: 0;
-padding:0 ;
-padding: 26.1vh 0vh;
-
+  color: white;
+  padding-top: 26vh ;
+  padding-bottom: 33.3vh ;
+  @media ${Device.mobile} {
+    margin: 0;
+    padding: 0;
+    padding: 26.1vh 0vh;
   }
 `;
 
@@ -25,12 +23,13 @@ export const ErrorP = styled.p`
 `;
 
 export const RatingSection = styled.section`
+  margin: 0 auto;
   background-color: #1e252e;
   padding: 3vh;
   width: 40vh;
   border-radius: 25px;
-  @media ${Device.mobile}{
-    margin: 0 auto ;
+  @media ${Device.mobile} {
+    margin: 0 auto;
   }
 `;
 
@@ -43,7 +42,7 @@ export const StarImg = styled.img`
 export const ButtonsContainer = styled.div`
   display: flex;
   list-style: none;
-  margin-bottom: 4vh ;
+  margin-bottom: 4vh;
   padding: 0;
 `;
 export const ButtonNumber = styled.button`
@@ -62,23 +61,23 @@ export const ButtonNumber = styled.button`
   }
   &:hover {
     cursor: pointer;
-    color: white ;
+    color: white;
     background-color: #cc8a0f;
   }
 `;
 
 export const Button = styled.button`
   background-color: #cc8a0f;
-  color: white ;
+  color: white;
   text-align: center;
   margin-right: 2vh;
   font-size: 2vh;
   border-radius: 25px;
   padding: 1vh 13vh;
-  display: flex ;
-  margin: 0 auto ;
-  width: max-content ;
-  border-style: none ;
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+  border-style: none;
   &:hover {
     background-color: white;
     color: #cc8a0f;
