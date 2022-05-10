@@ -12,7 +12,7 @@ export default function App() {
 
   const handleSubmit = (e) => {
     if (note >= 1 || note <= 5) {
-      setSuccess("Thank you");
+      setSuccess("Thank you !");
       setIsSubmit(!isSubmit);
       return true;
     }

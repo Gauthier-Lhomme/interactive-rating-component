@@ -5,3 +5,4 @@ export const MainDiv = styled.div`
   font-family: "Epilogue", sans-serif;
   background-color: hsl(216, 12%, 8%);
 `;
+

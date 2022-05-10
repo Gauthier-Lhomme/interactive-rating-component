@@ -28,7 +28,6 @@ const RatingComponent = ({ note, setNote, handleSubmit, error }) => {
           <ButtonNumber onClick={() => setNote(4)}>4</ButtonNumber>
           <ButtonNumber onClick={() => setNote(5)}>5</ButtonNumber>
         </ButtonsContainer>
-        <p>You click on {note} </p>
         <Button onClick={() => handleSubmit(true)}>Submit</Button>
       </RatingSection>
     </MainDiv>

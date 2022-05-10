@@ -4,7 +4,9 @@ export const MainDiv = styled.div`
   background-color: hsl(216, 12%, 8%);
   margin-left: 25vw;
   padding: 30vh;
+  padding-top: 29.3vh ;
   color: white;
+  
 `;
 
 export const ErrorP = styled.p`
@@ -17,9 +19,8 @@ export const ErrorP = styled.p`
 `;
 
 export const RatingSection = styled.section`
-  background-color: hsl(213, 19%, 18%);
+  background-color: #1e252e;
   padding: 3vh;
-  height: 100%;
   width: 40vh;
   border-radius: 25px;
 `;
@@ -33,14 +34,15 @@ export const StarImg = styled.img`
 export const ButtonsContainer = styled.div`
   display: flex;
   list-style: none;
+  margin-bottom: 4vh ;
   padding: 0;
 `;
 export const ButtonNumber = styled.button`
   padding: 1vh 2vh;
   width: 3rem;
   height: 3rem;
-  background-color: #727983;
-  color: #302e2e;
+  background-color: #323842;
+  color: #a09c9c;
   border-radius: 50%;
   outline: none;
   border: none;
@@ -51,18 +53,23 @@ export const ButtonNumber = styled.button`
   }
   &:hover {
     cursor: pointer;
+    color: white ;
     background-color: #cc8a0f;
   }
 `;
 
 export const Button = styled.button`
   background-color: #cc8a0f;
+  color: white ;
   text-align: center;
   margin-right: 2vh;
   font-size: 2vh;
   border-radius: 25px;
-  padding: 1vh 0;
-  font-weight: bold;
+  padding: 1vh 13vh;
+  display: flex ;
+  margin: 0 auto ;
+  width: max-content ;
+  border-style: none ;
   &:hover {
     background-color: white;
     color: #cc8a0f;
