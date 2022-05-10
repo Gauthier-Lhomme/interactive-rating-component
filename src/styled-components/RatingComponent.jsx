@@ -1,12 +1,18 @@
 import styled from "styled-components";
+import { Device } from "../asset/device";
 
 export const MainDiv = styled.div`
   background-color: hsl(216, 12%, 8%);
   margin-left: 25vw;
   padding: 30vh;
   padding-top: 29.3vh ;
-  color: white;
-  
+  color: white;  
+  @media ${Device.mobile}{
+margin: 0;
+padding:0 ;
+padding: 26.1vh 0vh;
+
+  }
 `;
 
 export const ErrorP = styled.p`
@@ -23,6 +29,9 @@ export const RatingSection = styled.section`
   padding: 3vh;
   width: 40vh;
   border-radius: 25px;
+  @media ${Device.mobile}{
+    margin: 0 auto ;
+  }
 `;
 
 export const StarImg = styled.img`
