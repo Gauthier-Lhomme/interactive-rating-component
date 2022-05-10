@@ -5,11 +5,14 @@ export const MainDiv = styled.div`
   background-color: hsl(216, 12%, 8%);
   color: white;
   padding-top: 26vh;
-  padding-bottom: 34vh;
+  min-height: 90vh;
   @media ${Device.mobile} {
     margin: 0;
     padding: 0;
     padding: 25.9vh 0vh;
+    min-height: 50vh;  
+;
+
   }
 `;
 
