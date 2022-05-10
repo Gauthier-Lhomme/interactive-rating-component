@@ -5,7 +5,7 @@ import {
 
 function Footer() {
   return (
-    <Div class="attribution">
+    <Div>
       Challenge by{" "}
       <A href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">
         Frontend Mentor
